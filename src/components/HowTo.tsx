@@ -21,18 +21,18 @@ const Share = () => {
      <div className="flex-1 py-[20px]">
             <p className="font-rubik text-[18px] text-[#383F42]"><span className="font-[600] text-orange text-[20px]">$20</span>/MON </p>
             <p className="capitalize font-rubik text-[14px]">or make one time Donation</p>
-            <p className="font-rubik text-[70px] leading-[65px] text-black font-[600] mt-[20px]">
+            <p className="font-rubik text-[40px] lg:text-[70px] leading-[40px] lg:leading-[65px] text-black font-[600] mt-[20px]">
               Share Food With <br className="hidden lg:block" /> Others Who Is <br className="hidden lg:block" /> In Need
             </p>
             <p className="font-rubik text-[14px] text-black font-[400] mt-[10px]">
             In carrying out their duties, charitable foundations food, medicine, food, 
             </p>
-            <div className="mt-[20px] w-[70%]">
+            <div className="mt-[20px] w-full lg:w-[70%]">
                 <div className="flex items-center justify-between w-full">
                     <p className="font-rubik font-[500] text-[14px] text-[#3D3D3D]">Raised : $69,152</p>
                     <p className="font-rubik font-[500] text-[14px] text-[#3D3D3D]">Goal: $89,000</p>
                 </div>
-                <div className="h-[10px] bg-gray-300 w-[70%]  rounded-full">
+                <div className="h-[10px] bg-gray-300 w-full lg:w-[70%]  rounded-full">
                     <p className="h-[10px] bg-orange rounded-full w-[40%]"></p>
                 </div>
             </div>
@@ -40,10 +40,10 @@ const Share = () => {
               Read Post
             </button>
           </div>
-          <div className="flex flex-col items-end justify-center lg:justify-end relative">
-            <img src={donate} className="h-[500px] w-full sm:w-[70%]" alt="" />
+          <div className="mt-[20px] lg:mt-0 flex flex-col items-end justify-center lg:justify-end relative">
+            <img src={donate} className="h-[350px] lg:h-[500px] w-full sm:w-[70%]" alt="" />
             <Link to="/" className="absolute bottom-0">
-            <img src={explore} className="h-[150px] " alt="" />
+            <img src={explore} className="h-[80px] lg:h-[150px] " alt="" />
             </Link>
             
           </div>

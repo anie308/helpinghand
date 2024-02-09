@@ -13,7 +13,7 @@ function Footer() {
       </Link>
       <div className="mt-[20px] flex flex-col lg:flex-row space-y-[30px] lg:space-y-0 lg:space-x-[30px] text-center">
         {links.map(({title}, index)=> (
-          <Link className="font-rubik font-[500]" to="" key={index}>{title}</Link>
+          <Link className="font-rubik font-[400] text-[18px] " to="" key={index}>{title}</Link>
         ))}
       </div>
       <p className="text-[#3D3D3D] font-[400] font-rubik mt-[40px]">© 2023 Asra . All rights reserved.</p>
