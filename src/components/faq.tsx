@@ -14,10 +14,13 @@ function Faq() {
 export default Faq
 
 
-
+type FaqItem = {
+  heading: string;
+  content: string;
+}
 
 const  Accordion =()=> {
-    const [faq, setFaq] = useState(null);
+    const [faq, setFaq] =  useState<number | null>(null); 
     const toggle = (i: number) => {
       if (faq === i) {
         return setFaq(null);
@@ -122,7 +125,7 @@ const Blog = () => {
 }
 
 
-const items = [
+const items: FaqItem[] = [
     {
       heading: "Is there a free trial?",
       content: "Yes",
